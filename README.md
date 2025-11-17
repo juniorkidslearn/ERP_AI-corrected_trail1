@@ -1,3 +1,5 @@
+## Prompt for Google- Gemini CLI : create a read.txt for learning to develop this project.
+
 # ERP Web Application Development Guide
 
 This document provides a basic guide to understanding and developing the ERP web application.
