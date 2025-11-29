@@ -87,6 +87,7 @@ I have implemented the "Payment History" feature as you requested.
   After you have visited this page once, the feature will be fully operational. I will now remove the setup file.
 
   Error:
+ 
   1.
   This site can’t be reached
   localhost refused to connect.
@@ -95,6 +96,7 @@ I have implemented the "Payment History" feature as you requested.
   Checking the connection
   Checking the proxy and the firewall
   ERR_CONNECTION_REFUSED
+  
   2.
 Microsoft Windows [Version 10.0.26100.7171]
   (c) Microsoft Corporation. All rights reserved.
@@ -104,6 +106,7 @@ Microsoft Windows [Version 10.0.26100.7171]
   operable program or batch file.
 
   C:\Users\hp\Documents\NetBeansProjects\ERP>
+  
   3.
 I have completed steps :
      1. Open the ERP project in your NetBeans IDE.
@@ -151,7 +154,7 @@ I have completed steps :
   dist:
   BUILD SUCCESSFUL (total time: 3 seconds)
 
-4.
+5.
 Microsoft Windows [Version 10.0.26100.7171]
   (c) Microsoft Corporation. All rights reserved.
 
@@ -165,7 +168,7 @@ Microsoft Windows [Version 10.0.26100.7171]
 
   C:\Users\hp\Documents\NetBeansProjects\ERP>
 
-5.
+6.
 ant -f C:\\Users\\hp\\Documents\\NetBeansProjects\\ERP -Dnb.internal.action.name=run.single -Ddirectory.deployment.supported=true
   -Djavac.jsp.includes=org/apache/jsp/enrol_005f1_jsp.java -DforceRedeploy=false -Dnb.wait.for.caches=true
   -Dbrowser.context=C:\\Users\\hp\\Documents\\NetBeansProjects\\ERP\\web\\enrol_1.jsp
@@ -194,7 +197,7 @@ ant -f C:\\Users\\hp\\Documents\\NetBeansProjects\\ERP -Dnb.internal.action.name
   run:
   BUILD SUCCESSFUL (total time: 2 seconds)
 
-6.  
+7.  
 ✦ Fantastic! The BUILD SUCCESSFUL message and deployment output confirm your web server is running and the application is deployed on port 8084 with
   the context path /ERP.
 
@@ -209,7 +212,7 @@ ant -f C:\\Users\\hp\\Documents\\NetBeansProjects\\ERP -Dnb.internal.action.name
 
   After these steps, the "Payment History" feature in profile.jsp will be fully functional.
   
-7.
+8.
 
   ==========================
 Setting up Database...
